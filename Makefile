@@ -1,5 +1,5 @@
 all: index.html
 	wrangler pages deploy . --project-name die-monospace-web
 
-index.html: index.md template.html diemonospace.css reset.css
+index.html: index.md template.html diemonospace.css
 	pandoc index.md --template template.html -o index.html --css diemonospace.css
