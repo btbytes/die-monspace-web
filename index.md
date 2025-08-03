@@ -7,9 +7,15 @@ lang: en
 toc-title: Contents
 ---
 
-## Introduction
 
-NOTE: Derived from Oskar Wickstrom's [Monospace web project](https://owickstrom.github.io/the-monospace-web/).
+**NOTE**: Derived from Oskar Wickström's [Monospace web project](https://owickstrom.github.io/the-monospace-web/).
+
+Changes from Oskar's version:
+
+- include a `reset.css` in the style file - [diemonospace.css](diemonospace.css)
+- use different fonts - "IBM Plex Mono" for body, and "Syne Mono" for headings.
+
+## Introduction
 
 Monospace fonts are dear to many of us. 
 Some find them more readable, consistent, and beautiful, than their proportional alternatives.
