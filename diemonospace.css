@@ -1,6 +1,6 @@
 /** die monospace web - a monospace web design **/
 /** Pradeep Gowda, Aug 2, 2025 **/
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
 /** reset css **/
 
 /* Box sizing reset */
@@ -139,8 +139,10 @@ html {
     Pradeep Gowda
     Aug 2, 2025
 **/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Syne+Mono&display=swap');
 :root {
-    --font-family: "Courier New";
+    --font-family: "IBM Plex Mono", monospace;
+    --header-font-family: "Syne Mono", monospace;
     --line-height: 1.2rem;
     --border-thickness: 2px;
     --text-color: #000;
@@ -214,7 +216,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Courier New", monospace;
+    font-family: var(--header-font-family);
     font-weight: var(--font-weight-bold);
     margin: calc(var(--line-height) * 2) 0 var(--line-height);
     line-height: var(--line-height);
