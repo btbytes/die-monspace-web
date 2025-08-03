@@ -1,7 +1,7 @@
 ---
 title: die monospace web
 version: 1.1
-updated: 2025-08-03
+date: 2025-08-03
 subtitle: A minimalist-ist design exploration
 author: Pradeep Gowda
 author-url: "https://www.btbytes.com"
