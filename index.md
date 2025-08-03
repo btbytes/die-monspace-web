@@ -1,13 +1,15 @@
 ---
-title: The Monospace Web
-subtitle: A minimalist design exploration
-author: Oskar Wickström
-author-url: "https://wickstrom.tech"
+title: die monospace web
+subtitle: A minimalist-ist design exploration
+author: Pradeep Gowda
+author-url: "https://www.btbytes.com"
 lang: en
 toc-title: Contents
 ---
 
 ## Introduction
+
+NOTE: Derived from Oskar Wickstrom's [Monospace web project](https://owickstrom.github.io/the-monospace-web/).
 
 Monospace fonts are dear to many of us. 
 Some find them more readable, consistent, and beautiful, than their proportional alternatives.
